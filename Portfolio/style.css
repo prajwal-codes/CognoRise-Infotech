@@ -1,7 +1,8 @@
 
 
 .container{
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #f1f9fb;
@@ -9,6 +10,7 @@
 
 .summary{
     padding-left: 30px;
+    padding-right: 30px;
 }
 
 .name-container{
