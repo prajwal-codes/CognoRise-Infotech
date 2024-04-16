@@ -1,0 +1,40 @@
+
+
+.container{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f9fb;
+}
+
+.summary{
+    padding-left: 30px;
+}
+
+.name-container{
+    text-align: center;
+    padding-left: 30px;
+}
+
+.ed-details{
+    padding-left: 30px;
+}
+
+.work-ex{
+    padding-left: 30px;
+}
+
+.skills{
+    padding-left: 30px;
+}
+
+.achievements{
+    padding-left: 30px;
+}
+.project-details{
+    padding-left: 30px;
+}
+
+.foot{
+    text-align: center ;
+}
