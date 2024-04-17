@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/69/2b/c9/692bc91c144d93eb163f4b10a2c9fd3d.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Sedan", serif;
+  margin: -150px 0 40px;
+}
+h2 {
+  font-size: 25px;
+  font-family: "";
+}
+
+.countdown {
+  display: flex;
+  transform: scale(2);
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+.time h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1;
+  margin: 0 0 5px;
+}
+
+#halvingTime{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    font-family:'Times New Roman', Times, serif;
+}
