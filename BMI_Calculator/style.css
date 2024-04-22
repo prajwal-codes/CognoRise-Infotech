@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Serif 4", serif;
+  font-weight: 600;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3a0ad;
+}
+/* ba9cf6 ccabd8 cfb7ff */
+.container {
+  background: #ffd3dd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 24px 30px;
+  text-align: center;
+}
+
+.input-container h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.container .input-container {
+  border: 2px solid grey;
+  border-radius: 6px;
+  margin-block: 20px;
+}
+.container .input-container input,
+.container .input-container label {
+  width: 200px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  padding: 8px;
+  overflow: hidden;
+}
+
+.btns,
+#btn1,
+#btn2 {
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.btns button:hover {
+  background-color: #ba9cf6;
+}
+#btn2 {
+  width: 110px;
+}
